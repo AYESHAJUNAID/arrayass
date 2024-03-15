@@ -51,3 +51,45 @@ document.write(
   qualification[7],
   "<br>"
 );
+
+var student = ["michael", "john", "tony"];
+var score = [320, 230, 480];
+var totalmarks = 500;
+var percentage1 = (score[0] * 100) / totalmarks;
+document.write(
+  `score of ${student[0]} is ${score[0]}. percentage: ${percentage1}% <br>`
+);
+
+var percentage2 = (score[1] * 100) / totalmarks;
+document.write(
+  `score of ${student[1]} is ${score[1]}. percentage: ${percentage2}% <br>`
+);
+
+var percentage3 = (score[2] * 100) / totalmarks;
+document.write(
+  `score of ${student[2]} is ${score[2]}. percentage: ${percentage3}% <br>`
+);
+
+var color = ["red", "blue", "yellow", "green", "orange"];
+document.write(color);
+var beginning = prompt("what color do you want yo add to the beginning?");
+color.unshift(beginning);
+console.log(color);
+document.write("<br>", color);
+
+var end = prompt("what color do you want yo add to the end?");
+color.push(end);
+console.log(color);
+document.write("<br>", color);
+
+color.splice(1, 0, "violet", "olive");
+console.log(color);
+document.write("<br>", color);
+
+color.shift();
+console.log(color);
+document.write("<br>", color);
+
+color.pop();
+console.log(color);
+document.write("<br>", color);
