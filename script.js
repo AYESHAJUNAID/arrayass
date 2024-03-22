@@ -93,3 +93,70 @@ document.write("<br>", color);
 color.pop();
 console.log(color);
 document.write("<br>", color);
+
+var scoresofstudent = [320, 230, 480, 120];
+document.write("<br> scoreofstudent" + scoresofstudent + "<br>");
+scoresofstudent.sort();
+document.write("ascendingorder" + scoresofstudent + "<br>");
+
+var citieslist = ["karachi", "lahore", "islamabad", "quetta", "peshawar"];
+document.write(" cities list<br>" + citieslist + "<br>");
+var selectedcitieslist = ["islamabad", "quetta"];
+document.write("selectedcitieslist<br>" + selectedcitieslist + "<br>");
+
+var cat = ["this ", "is", "my", "cat"];
+document.write(cat[0], cat[1], cat[2], cat[3]);
+
+var fifo = ["keyboard", "mouse", "printer", "monitor"];
+document.write("<h3>Devices FIFO</h3>");
+document.write(fifo, "<br>");
+
+document.write("OUT: <br>");
+var fifoShift = fifo.shift();
+document.write(fifoShift, "<br>");
+
+document.write("OUT: <br>");
+var fifoShift = fifo.shift();
+document.write(fifoShift, "<br>");
+
+document.write("OUT: <br>");
+var fifoShift = fifo.shift();
+document.write(fifoShift, "<br>");
+
+document.write("OUT: <br>");
+var fifoShift = fifo.shift();
+document.write(fifoShift, "<br>");
+
+var lifo = ["keyboard", "mouse", "printer", "monitor"];
+document.write("<h3>Devices LIFO</h3>");
+document.write(lifo, "<br>");
+
+document.write("OUT: <br>");
+var lifopop = lifo.pop();
+document.write(lifopop, "<br>");
+
+document.write("OUT: <br>");
+var lifopop = lifo.pop();
+document.write(lifopop, "<br>");
+
+document.write("OUT: <br>");
+var lifoPop = lifo.pop();
+document.write(lifoPop, "<br>");
+
+document.write("OUT: <br>");
+var lifoPop = lifo.pop();
+document.write(lifoPop, "<br>");
+
+var mobilephone = ["apple", "samsung", "motorola", "nokia", "sony&haier"];
+document.write("<h3>mobilephone</h3>");
+document.write(
+  mobilephone[0],
+  "<br>",
+  mobilephone[1],
+  "<br>",
+  mobilephone[2],
+  "<br>",
+  mobilephone[3],
+  "<br>",
+  mobilephone[4]
+);
